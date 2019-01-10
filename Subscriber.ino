@@ -4,7 +4,13 @@
   
   Hardware : NodeMCU dan Module 7 Segment Max7219
   Author   : Komputronika.com
+  Email    : infokomputronika@gmail.com
   Website  : http://www.komputronika.com
+  Source   : https://github.com/komputronika/YoutubeSubscriberNodeMCU
+
+  Library  : (1) https://github.com/esp8266/Arduino  
+             (2) https://github.com/bblanchon/ArduinoJson
+             (3) https://github.com/ozhantr/DigitLedDisplay
 
 \*----------------------------------------------*/
 
@@ -81,15 +87,6 @@ void setup() {
 
 void loop() {
 
-    /* Prints data to the display */
-    /*ld.printDigit(12345678);
-    ld.clear();
-    ld.printDigit(i, 4);
-    ld.off();
-    ld.on();
-    ld.write(5, B01100011);
-    */
-
     // Tunggu sampai statusnya sudah terhubung
     if ( (WiFiMulti.run() == WL_CONNECTED) ) {
 
@@ -144,7 +141,3 @@ void loop() {
     // Tunda sekian detik
     delay(INTERVAL * 1000);
 }
-
-
-
-
