@@ -11,11 +11,11 @@
   Library  : (1) https://github.com/esp8266/Arduino  
              (2) https://github.com/bblanchon/ArduinoJson
              (3) https://github.com/ozhantr/DigitLedDisplay
-             
+
   Hardware : (1) NodeMCU v3
                  https://sea.banggood.com/custlink/vvKmdyopw4
              (2) 8 Digits 7 Segment Max7219    
-                 https://sea.banggood.com/custlink/33KKyRaC1P               
+                 https://sea.banggood.com/custlink/33KKyRaC1P  
 
 \*----------------------------------------------*/
 
@@ -30,8 +30,8 @@
 #define OUTPUT Serial
 
 // Definisi Google API
-#define API_KEY "123"
-#define CHANNEL_ID "12313213"
+#define API_KEY    "AIzaSyCx9fdQzoI6h8O*****" 
+#define CHANNEL_ID "UC6XNjTWMm_8gcpBhAd*****"
 
 // Interval membaca data subscriber (dalam detik)  
 #define INTERVAL 10
