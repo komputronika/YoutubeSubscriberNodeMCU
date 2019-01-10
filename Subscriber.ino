@@ -11,6 +11,11 @@
   Library  : (1) https://github.com/esp8266/Arduino  
              (2) https://github.com/bblanchon/ArduinoJson
              (3) https://github.com/ozhantr/DigitLedDisplay
+             
+  Hardware : (1) NodeMCU v3
+                 https://sea.banggood.com/custlink/vvKmdyopw4
+             (2) 8 Digits 7 Segment Max7219    
+                 https://sea.banggood.com/custlink/33KKyRaC1P               
 
 \*----------------------------------------------*/
 
