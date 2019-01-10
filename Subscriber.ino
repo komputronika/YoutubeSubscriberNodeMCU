@@ -37,8 +37,8 @@
 #define INTERVAL 10
 
 // WIFI/Hotspot yang digunakan untuk koneksi
-#define WIFI_NAME "Aduh"
-#define WIFI_PASS "Bagus"
+#define WIFI_NAME "MyWifi"
+#define WIFI_PASS "pass123456"
 
 // Buat object Wifi
 ESP8266WiFiMulti WiFiMulti;
